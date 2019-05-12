@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelpActivity"
+    android:background="@drawable/enbnhelppic"
+    >
+
+
+    <Button
+        android:id="@+id/englishHelpId"
+
+        android:layout_width="355dp"
+        android:layout_height="92dp"
+
+        android:background="@drawable/buttonshape"
+
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginBottom="314dp"
+        android:shadowColor="#170F12"
+        android:shadowDx="7"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:text="Read it in english"
+        android:textColor="#def227"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/banglaHelpId"
+
+        android:layout_width="355dp"
+        android:layout_height="92dp"
+
+        android:background="@drawable/buttonshape"
+
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginBottom="162dp"
+        android:shadowColor="#170F12"
+        android:shadowDx="7"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:text="বাংলায় পড়ুন"
+        android:textColor="#def227"
+        android:textSize="32sp" />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FeedBackActivity"
+    android:weightSum="4"
+    android:orientation="vertical"
+    android:background="@drawable/feedbackbackground"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:layout_marginTop="10dp"
+        >
+
+
+        <EditText
+
+            android:id="@+id/nameEditTextId"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your name"
+            android:textColorHint="#817f7f"
+            android:textSize="20sp"
+            android:textColor="#ff22"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5">
+
+        <EditText
+            android:id="@+id/emailEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ff22"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:hint="Enter your email"
+            android:textColorHint="#817f7f"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/feedBackEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:hint="Enter your feedback"
+            android:textColorHint="#817f7f"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#ff22"
+            />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+
+        >
+
+        <Button
+            android:id="@+id/clearButtonId"
+            android:layout_width="284dp"
+
+            android:layout_height="71dp"
+            android:layout_alignParentBottom="true"
+
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#170F12"
+            android:shadowDx="7"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text="clear"
+            android:textColor="#def227"
+            android:textSize="32sp" />
+
+
+        <Button
+            android:id="@+id/sendButtonId"
+            android:layout_width="259dp"
+
+            android:layout_height="75dp"
+            android:layout_alignParentBottom="true"
+
+            android:layout_marginBottom="103dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#170F12"
+            android:shadowDx="7"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text="send"
+            android:textColor="#def227"
+            android:textSize="32sp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+

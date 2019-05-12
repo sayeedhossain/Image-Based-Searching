@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BanglaHelpActivity"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:background="@drawable/helpactivity"
+    >
+
+
+    <TextView
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="ভূমিকা"
+        android:textColor="#ff22"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/CustomFontText"
+        android:layout_width="352dp"
+        android:layout_height="488dp"
+          android:text="এই অ্যাপটি ব্যবহার করার জন্য আপনাকে অবশ্যই আপনার ইন্টারনেট সংযোগ চালু করতে হবে। তারপরে নিম্নোক্ত 'START' বাটনে ক্লিক করুন এবং নীচের 'Let's go' বাটনে ক্লিক করুন  তারপর কয়েক সেকেন্ড অপেক্ষা করুন এবং আপলোড বোতামে ক্লিক করুন এবং আপনার ফটোটি অনুসন্ধান করতে পছন্দ করুন। একটি ফটো নির্বাচন করার পরে তারপরে 'SHOW MATCH' বোতামে ক্লিক করুন"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="48dp"
+
+        android:textColor="#1e1d1d"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="366dp"
+        android:layout_height="48dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="435dp"
+        android:text="এটি ব্যবহার করার প্রয়োজনীয়তা"
+        android:textAllCaps="true"
+        android:textColor="#f40e0e"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="373dp"
+        android:layout_height="244dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="470dp"
+        android:text="এই অ্যাপটি ব্যবহার করার জন্য আপনি ইমেজ দ্বারা গুগল এ কিছু অনুসন্ধান করতে পারেন। স্বাভাবিকভাবেই আমরা গুগল টেক্সট এ সার্চ করি কিন্তু এই অ্যাপটি ব্যবহার করতে আপনি ইমেজ অনুসন্ধান করতে পারেন এবং আপনার নির্বাচিত ইমেজ সম্পর্কে বিস্তারিত জানতে পারেন। "
+
+        android:textColor="#161515"
+        android:textSize="21sp"
+
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>

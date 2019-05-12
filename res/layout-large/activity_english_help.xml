@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EnglishHelpActivity"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+     android:background="@drawable/helpactivity"
+    >
+
+
+    />
+
+    <TextView
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="8dp"
+        android:text="Introduction"
+        android:textAllCaps="true"
+        android:textColor="#f40e0e"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="499dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="67dp"
+        android:text="To use this app you have must turn on your internet connection.Then click the following 'START'button and then click the below 'Let's go button then wait few second and click the upload button and choice your photo to search.After select a photo then click 'SHOW MATCH' button."
+
+        android:textColor="#131313"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="366dp"
+        android:text="why we should use it?"
+        android:textAllCaps="true"
+        android:textColor="#f40e0e"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="567dp"
+        android:layout_height="266dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="420dp"
+        android:text="To use this app you can search anything on google by image.Normally we search on google by text but to use this app you can search by image and know details about your selected image."
+
+        android:textColor="#161515"
+        android:textSize="30sp"
+
+        android:textStyle="bold|italic" />
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity"
+    android:orientation="vertical"
+   android:background="@drawable/background_gradient"
+    >
+
+
+    <Button
+        android:id="@+id/letgo"
+
+        android:layout_width="511dp"
+        android:layout_height="151dp"
+
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/buttonshape"
+
+
+        android:shadowColor="#170F12"
+        android:shadowDx="7"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:text="Let's go"
+        android:textColor="#def227"
+        android:textSize="62sp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+
+        android:layout_marginTop="900dp"
+
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="20dp"
+
+        />
+
+
+    <TextView
+        android:layout_width="773dp"
+        android:layout_height="333dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="450sp"
+        android:text="Please turn on your internet connection to enjoy this app."
+        android:textColor="#F7F0F0"
+        android:textSize="70sp"
+        android:textStyle="italic|bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="27dp" />
+
+
+    <TextView
+        android:layout_width="726dp"
+        android:layout_height="167dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="90dp"
+        android:text="ATTENTION"
+
+        android:textColor="#FC1808"
+        android:textSize="120sp"
+        android:textStyle="italic|bold"
+
+
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="74dp" />
+
+
+</android.support.constraint.ConstraintLayout>
